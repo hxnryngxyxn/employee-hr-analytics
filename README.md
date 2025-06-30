@@ -1,63 +1,60 @@
 # Employee HR Analytics
 
-A sample SQL project that simulates an HR database and demonstrates core SQL skills including table design, data modeling, and query-based analytics.
+A SQL project simulating an HR database for analyzing employee performance, department growth, and salary trends. Built to demonstrate relational schema design, data modeling, and query-based business analysis using standard SQL.
 
 ---
 
 ## 📌 Project Overview
 
-This project models a simplified HR system with employee data, departments, performance reviews, and salary history. It includes sample SQL scripts to create tables, insert data, and run analytical queries to extract meaningful business insights.
+This project models a simplified human resources system, including employees, departments, performance reviews, and salary history. It includes realistic sample data and SQL queries that answer common business questions like:
+
+- What’s the average salary per department?
+- Who are the top performers?
+- Which departments are growing or underperforming?
+- How has salary changed year-over-year?
 
 ---
 
-## 🧱 Schema Overview
+## 🧱 Schema
 
-- **employees**: Stores employee info, including department and salary
-- **departments**: Reference table for department names
-- **performance_reviews**: Contains annual performance scores for each employee
-- **salaries**: (Optional) Tracks historical salary records for trend analysis
+- **departments** — Reference list of departments  
+- **employees** — Employee info (name, hire date, salary, department)  
+- **performance_reviews** — Yearly review scores (1.0 to 5.0)  
+- **salaries** — Salary history records per employee (optional)
 
-
----
-
-## 🗃️ Files Included
-
-- `schema.sql` – DDL script to create all tables
-- `insert_data.sql` – Sample INSERT statements to populate the database
-- `queries.sql` – Example queries to analyze data
-- `.gitignore` – To keep repo clean
-- `LICENSE` – MIT license for open-source use
+You can view the schema in [`schema.sql`](./schema.sql).
 
 ---
 
-## 🧪 Sample Queries
+## 📂 File Structure
+
+| File               | Description                                |
+|--------------------|--------------------------------------------|
+| `schema.sql`       | DDL for creating tables                    |
+| `insert_data.sql`  | Sample records for departments, employees, reviews |
+| `queries.sql`      | 10 business-style queries                  |
+| `.gitignore`       | Cleans the repo (ignores temp/system files)|
+| `LICENSE`          | MIT license                                |
+
+---
+
+## 🧪 Sample Queries Included
 
 - Average salary by department
-- Headcount trend by department
-- Top performers by year
+- Top performers across years
 - Employees hired in the last 12 months
-- Employees with declining performance
-- Salary growth trends over time
+- Review count per employee
+- Departments with highest average scores
+- Salary change over time
+- Employees with no performance reviews
+
+See all in [`queries.sql`](./queries.sql).
 
 ---
 
 ## 🚀 How to Use
 
-1. Open your SQL environment (PostgreSQL, MySQL, SQLite, etc.)
-2. Run `schema.sql` to create tables
-3. Run `insert_data.sql` to load sample data
-4. Run queries from `queries.sql` or write your own
-
----
-
-## 🧠 What I Learned
-
-- Designed normalized relational schema from real-world business logic
-- Practiced writing joins, aggregations, and conditional logic
-- Explored SQL as a tool for business insights and decision support
-
----
-
-## 🤝 License
-
-This project is licensed under the [MIT License](./LICENSE).
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/yourusername/employee-hr-analytics.git
+   cd employee-hr-analytics
