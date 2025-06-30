@@ -17,7 +17,6 @@ This project models a simplified HR system with employee data, departments, perf
 - **performance_reviews**: Contains annual performance scores for each employee
 - **salaries**: (Optional) Tracks historical salary records for trend analysis
 
-![ER diagram](./screenshots/er-diagram.png) *(Optional image — draw.io or dbdiagram.io)*
 
 ---
 
