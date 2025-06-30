@@ -1,3 +1,4 @@
+-- run this query to create tables --
 -- Drop tables if they exist (to reset database during testing)
 DROP TABLE IF EXISTS salaries;
 DROP TABLE IF EXISTS performance_reviews;
