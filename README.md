@@ -56,5 +56,5 @@ See all in [`queries.sql`](./queries.sql).
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/employee-hr-analytics.git
+   git clone https://github.com/hxnryngxyxn/employee-hr-analytics.git
    cd employee-hr-analytics
