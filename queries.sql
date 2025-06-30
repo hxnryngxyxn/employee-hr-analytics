@@ -1,3 +1,4 @@
+-- run this query to analyze insights --
 -- 1. Average salary by department
 SELECT 
     d.department_name,
