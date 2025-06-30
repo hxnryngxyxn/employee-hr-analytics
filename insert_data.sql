@@ -1,3 +1,4 @@
+-- run this query to load data --
 -- Insert departments
 INSERT INTO departments (department_name) VALUES
 ('Engineering'),
